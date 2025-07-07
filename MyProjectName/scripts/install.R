@@ -24,7 +24,8 @@ rscodeio::install_theme() # install the theme
 # remotes installation.
 easystats::easystats_update() # updates easystats packages
 remotes::install_github("davidgohel/officedown")
-devtools::install_github('achetverikov/apastats', subdir='apastats')
+#devtools::install_github('achetverikov/apastats', subdir='apastats')
+devtools::install_github('achetverikov/apastats')
 devtools::install_github("benmarwick/wordcountaddin", type = "source", dependencies = TRUE)
 remotes::install_github("dcomtois/pathToClip")
 devtools::install_github("nevrome/wellspell.addin") #github.com/nevrome/wellspell.addin
